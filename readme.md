@@ -30,3 +30,11 @@ echo "node_modules" >> .gitignore
  - can be done for frontend builds also  => not just backend
  - CI / CO => continious integration / continious deployment
  - yml => yaml => yet another markup language => yaml aint markup language
+
+- create a github project
+- create a .yml workflow inside .github/workflows
+- use the heroku marketplace action for github
+- add your github secrets
+- correctly enter info in your .yml files
+- commit, add push to whichever branch you added on your yml
+- see the update on your web application
